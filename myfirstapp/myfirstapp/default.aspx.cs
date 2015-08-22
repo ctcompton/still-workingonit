@@ -22,12 +22,21 @@ namespace myfirstapp
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string firstName = firstNameTextBox.Text;
+            //string firstName = firstNameTextBox.Text;
+
+            //string firstname;
+           // firstname = "Bob"
+           // resultLabel.Text = firstname;
+
+            string firstname = firstname.TextBox
+
+            /*
             string lastName = lastNameTextBox.Text;
 
             string result = "Hello " + firstName + " " + lastName;
 
             resultLabel.Text = result;
+            */
         }
     }
 }
