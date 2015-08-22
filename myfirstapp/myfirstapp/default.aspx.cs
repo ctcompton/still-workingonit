@@ -28,9 +28,6 @@ namespace myfirstapp
             string result = "Hello " + firstName + " " + lastName;
 
             resultLabel.Text = result;
-
-
-
         }
     }
 }
