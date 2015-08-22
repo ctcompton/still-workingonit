@@ -16,3 +16,24 @@ Bool => True or False (Defaults to false)
 
 More: http://is.gd/data_types
 
+Data Type Conversions (CS-ASP_008)
+======================================================
+
+Implicit Conversions - Smaller type to larger type
+without data loss, "upcasting"
+
+Explicit conversions - require developer intervention,
+possibilty of data loss, "downcasting", either in
+the form of cast or using a helper method.
+
+Casting Numbers:
+int myInterger = (int)myDouble;
+
+Numbers to Strings:
+string myString = myInterger.ToString();
+
+String to Numbers:
+int myInterger = int.Parse(myString);
+
+More: http://is.gd/datatype_conversion
+
