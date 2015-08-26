@@ -13,5 +13,35 @@ namespace cs_asp_011
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            /* if (pizzaRadioButton.Checked)
+             {
+                 resultLabel.Text = "you muxt be from Chicago.";
+             }
+             else if (saladRadioButton.Checked)
+             {
+                 resultLabel.Text = "you must be healthy.";
+             }
+             else if (pbjRadioButton.Checked)
+             {
+                 resultLabel.Text = "you must be a fun loving person";
+             }
+             else
+             {
+                 resultLabel.Text = "you must check one.";
+                 */
+                 resultLabel.Text = (firstTextBox.Text == secondTextBox.Text) ? "yes" : "no";
+        }
+            {
+                
+
+            }
+                       
+                        
+            }
+        }
+        
     }
 }

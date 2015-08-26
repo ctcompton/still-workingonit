@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cs_asp_011 {
+namespace CS_ASP_013 {
     
     
     public partial class _default {
@@ -31,6 +31,15 @@ namespace cs_asp_011 {
         protected global::System.Web.UI.WebControls.TextBox firstTextBox;
         
         /// <summary>
+        /// comparisonTypeLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label comparisonTypeLabel;
+        
+        /// <summary>
         /// secondTextBox control.
         /// </summary>
         /// <remarks>
@@ -40,49 +49,22 @@ namespace cs_asp_011 {
         protected global::System.Web.UI.WebControls.TextBox secondTextBox;
         
         /// <summary>
-        /// CheckBox1 control.
+        /// checkedCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.CheckBox checkedCheckBox;
         
         /// <summary>
-        /// pizzaRadioButton control.
+        /// okButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton pizzaRadioButton;
-        
-        /// <summary>
-        /// saladRadioButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton saladRadioButton;
-        
-        /// <summary>
-        /// pbjRadioButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton pbjRadioButton;
-        
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button okButton;
         
         /// <summary>
         /// resultLabel control.

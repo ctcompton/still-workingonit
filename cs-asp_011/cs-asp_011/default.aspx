@@ -10,15 +10,27 @@
     <form id="form1" runat="server">
         <p>
             Is
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="firstTextBox" runat="server"></asp:TextBox>
 &nbsp;equal to
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="secondTextBox" runat="server"></asp:TextBox>
             <br />
+        </p>
+        <p>
+            <asp:CheckBox ID="CheckBox1" runat="server" Text="Are you cool?" />
+        </p>
+        <p>
+            <asp:RadioButton ID="pizzaRadioButton" runat="server" GroupName="foodgroup" Text="Pizza" />
+        </p>
+        <p>
+            <asp:RadioButton ID="saladRadioButton" runat="server" GroupName="foodgroup" Text="salad" />
+        </p>
+        <p>
+            <asp:RadioButton ID="pbjRadioButton" runat="server" GroupName="foodgroup" Text="pbj" />
         </p>
         <p>
             &nbsp;</p>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="OK" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="OK" />
         </p>
         <p>
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
