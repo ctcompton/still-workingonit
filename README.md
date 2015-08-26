@@ -66,3 +66,10 @@ else {// catch all}
 checkbox server control = checked prop is bool
 
 radiobutton server control group name prop groups together,  check prop is bool.
+
+conditional ternary operator (CS-ASP_012)
+=========================================
+
+Shortcut for evaluating an expression and returning a result.
+result = (a==b) ? "equal" : "not equal";
+
