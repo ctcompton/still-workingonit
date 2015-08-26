@@ -47,3 +47,22 @@ https://is.gd/operators
 Expressions - one or more operands and zero or more ooperatorsthat evaluate to  a single value.
 http://is.gd/expressions
 Statements - a complete instruction - assignment of an expression to a variable, an increment/ decrement, ect._
+
+Conditional if ... else if ... else Statement(CS-ASP_011)
+==============================================================
+= Assignment
+== Equality
+
+if (a == b)
+{
+// Executes when the expression is false
+}
+... or ... evaluate other mutually exclusively options:
+if (a==b){// some code}
+else if (a==c) {// some code}
+else if (a==d) {// some code}
+else {// catch all}
+
+checkbox server control = checked prop is bool
+
+radiobutton server control group name prop groups together,  check prop is bool.
