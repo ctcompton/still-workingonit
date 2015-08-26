@@ -37,3 +37,13 @@ int myInterger = int.Parse(myString);
 
 More: http://is.gd/datatype_conversion
 
+
+C# Syntax (CS-ASP_010)
+======================
+
+Operands - variable names, object / server control names, literals - "nouns" (you name these)
+operators - "verbs ... they act on the operands.
+https://is.gd/operators
+Expressions - one or more operands and zero or more ooperatorsthat evaluate to  a single value.
+http://is.gd/expressions
+Statements - a complete instruction - assignment of an expression to a variable, an increment/ decrement, ect._
