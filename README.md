@@ -73,3 +73,20 @@ conditional ternary operator (CS-ASP_012)
 Shortcut for evaluating an expression and returning a result.
 result = (a==b) ? "equal" : "not equal";
 
+Comparison and Logical Operator (CS-ASP_013)
+=============================================
+comparison operators
+used for conditional statements
+==
+!=
+< >
+<= >=
+! some boolean value - means Not is true
+
+Logical operators
+used to combine multiple expressions / evaluation
+
+&& - and
+|| - or
+combine with parenthesis() for order of precedence
+
