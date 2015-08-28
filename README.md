@@ -1,5 +1,9 @@
 # EpicU-ChanceCompton
 
+Papa Bob's pizza site challenge: http://342-chance.vm.epicserver.com/pizza1
+challenge conditional radiobutton: http://342-chance.vm.epicserver.com/conradbttn
+Simple Calculator app: http://342-chance.vm.epicserver.com/calcapp
+
 Cheat Sheet
 
 Data Types (CS-ASP_007)
