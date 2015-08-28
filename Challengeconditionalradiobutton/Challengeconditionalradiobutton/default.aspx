@@ -31,7 +31,7 @@
         <br />
         <br />
         <br />
-        <asp:Label ID="resultLabel" runat="server"></asp:Label>
+        <asp:Label ID="resultLabel" runat="server" BackColor="#0099FF" ForeColor="Black"></asp:Label>
     
     </div>
     </form>
