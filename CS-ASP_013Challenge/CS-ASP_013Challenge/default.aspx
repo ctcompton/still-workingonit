@@ -48,19 +48,19 @@
         <br />
         <asp:RadioButton ID="medRadioButton" runat="server" GroupName="size" Text="Moma Bob Size (13&quot;) - $13" />
         <br />
-        <asp:RadioButton ID="RadioButton5" runat="server" Text="Papa Bob Size (16&quot;) - $16" />
+        <asp:RadioButton ID="largeRadioButton" runat="server" GroupName="size" Text="Papa Bob Size (16&quot;) - $16" />
         <br />
         <br />
         <asp:RadioButton ID="thinRadioButton" runat="server" GroupName="style" Text="Thin Crust" />
         <br />
-        <asp:RadioButton ID="deepRadioButton" runat="server" Text="Deep Dish (+2)" />
+        <asp:RadioButton ID="deepRadioButton" runat="server" GroupName="style" Text="Deep Dish (+2)" />
         <br />
         <br />
         <asp:CheckBox ID="firstCheckBox" runat="server" Text="Pepperoni (+$1.50)" />
         <br />
         <asp:CheckBox ID="secondCheckBox" runat="server" Text="Onions (+$0.75)" />
         <br />
-        <asp:CheckBox ID="thirdCheckBox" runat="server" Text="Green Peppers (+$0.50)." />
+        <asp:CheckBox ID="thirdCheckBox" runat="server" Text="Green Peppers (+$0.50)" />
         <br />
         <asp:CheckBox ID="fourthCheckBox" runat="server" Text="Red Peppers (+$0.75)" />
         <br />

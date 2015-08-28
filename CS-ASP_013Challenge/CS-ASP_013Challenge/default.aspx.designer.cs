@@ -40,13 +40,13 @@ namespace CS_ASP_013Challenge {
         protected global::System.Web.UI.WebControls.RadioButton medRadioButton;
         
         /// <summary>
-        /// RadioButton5 control.
+        /// largeRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton5;
+        protected global::System.Web.UI.WebControls.RadioButton largeRadioButton;
         
         /// <summary>
         /// thinRadioButton control.
