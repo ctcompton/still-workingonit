@@ -70,6 +70,7 @@
       <BrowseToURL>C:\Users\chance\Desktop\CS-ASP_012-Challenge\Assets</BrowseToURL>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\radiobutton.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
