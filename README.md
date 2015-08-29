@@ -149,3 +149,27 @@ as a double representing both
 the number of days/ hours/etc.
 And fractional values representing 
 
+Formatting Strings (CS-ASP_019)
+===============================
+
+Concenate Strings
+
++ +=
++ 
+String.Format("Hello {0}.  You are from {1}", "Bob", "Chicago")
+
+Format Numbers
+
+String.Format("Reference Code: {0:000_000-0}", 1234567)
+123_456-7
+
+Formatting Dates
+http://is.gd/formattingdates
+
+String.Format("Reference Date: {0:ddd - d, mm, yyyy}", someDate)
+Teu - 5, 07, 2014
+
+Formatting Currency
+http://is.gd/formattingcurrency
+String.Format("Total: {0:C}", totalAmount);
+$50,000.00
