@@ -1,5 +1,11 @@
 # EpicU-ChanceCompton
 
+Papa Bob's pizza site challenge: http://342-chance.vm.epicserver.com/pizza1
+
+challenge conditional radiobutton: http://342-chance.vm.epicserver.com/conradbttn
+
+Simple Calculator app: http://342-chance.vm.epicserver.com/calcapp
+
 Cheat Sheet
 
 Data Types (CS-ASP_007)
@@ -89,4 +95,57 @@ used to combine multiple expressions / evaluation
 && - and
 || - or
 combine with parenthesis() for order of precedence
+
+
+Working With Date Times (CS-ASP_014)
+====================================
+
+
+Creating ne DateTime objects
+
+Datetime MyDateTime = DateTime.now;
+
+DateTime MyDateTime = DateTime("12/7/1969");
+
+Formatting...many options:
+myDateTime.To____()
+
+Retrieving Parts:
+
+MyDatTime.year // int
+MyDateTime.Hour // int
+MyDateTime.DayOfWeek // "Monday"
+myDateTime.DayOfYear // int 175
+
+DateTime Math:
+
+myDateTime.AddHour(3)
+myDateTime.AddMinute(-5)
+
+"Chaining" using multiple helper
+
+
+
+
+Working With Spans of Time CS-ASP_015
+=====================================
+
+Create and initialize new TimeSpans
+
+// Days.Hours:minutes:Seconds.Milliseconds
+
+DateTime myBirthday = DateTime.Parse("12/7/1969");
+
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+
+More info at http://is.gd/timespan
+
+Get individual parts
+my.Age.Hours
+myAge.Seconds
+
+... or get TOTAL elapsed time 
+as a double representing both
+the number of days/ hours/etc.
+And fractional values representing 
 
