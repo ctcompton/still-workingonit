@@ -7,8 +7,8 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 242px;
-            height: 300px;
+            width: 223px;
+            height: 280px;
         }
         .newStyle1 {
             font-family: Arial;
@@ -24,36 +24,68 @@
     
         <img alt="epicspylogo" class="auto-style1" src="file:///C:/Users/chance/AppData/Local/Microsoft/Windows/INetCache/WebTempDir/epic-spies-logo.jpg" /><br />
         <br />
-        <span class="auto-style2"><strong>Spy New Assignment Form</strong></span></div>
+        <span class="auto-style2"><strong style="font-size: xx-large">Spy New Assignment Form</strong></span></div>
         <p style="font-size: x-large">
             Spy Code Name:&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="nameTextBox" runat="server"></asp:TextBox>
         </p>
         <p style="font-size: x-large">
             New Assignment Name:&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="assignmentTextBox" runat="server"></asp:TextBox>
         </p>
         <p style="font-size: x-large">
             &nbsp;</p>
         <p style="font-size: large">
             End Date of Previous Assignment:</p>
         <p style="font-size: large">
-            <asp:Calendar ID="Calendar1" runat="server" style="margin-top: 4px"></asp:Calendar>
+            <asp:Calendar ID="previousCalendar" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="220px" style="margin-top: 4px" Width="300px">
+                <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px" />
+                <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
+                <OtherMonthDayStyle ForeColor="#999999" />
+                <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
+                <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+                <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px" />
+                <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
+                <WeekendDayStyle BackColor="#CCCCFF" />
+            </asp:Calendar>
         </p>
         <p style="font-size: large">
             Start Date of New Assignment:</p>
         <p style="font-size: large">
-            <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
+            <asp:Calendar ID="startCalendar" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="220px" Width="300px">
+                <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px" />
+                <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
+                <OtherMonthDayStyle ForeColor="#999999" />
+                <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
+                <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+                <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px" />
+                <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
+                <WeekendDayStyle BackColor="#CCCCFF" />
+            </asp:Calendar>
         </p>
         <p style="font-size: large">
             Projected End Date of New Assignment:</p>
         <p style="font-size: large">
-            <asp:Calendar ID="Calendar3" runat="server"></asp:Calendar>
+            <asp:Calendar ID="endCalendar" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="220px" Width="300px">
+                <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px" />
+                <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
+                <OtherMonthDayStyle ForeColor="#999999" />
+                <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
+                <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+                <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px" />
+                <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
+                <WeekendDayStyle BackColor="#CCCCFF" />
+            </asp:Calendar>
         </p>
         <p style="font-size: large">
             &nbsp;</p>
         <p style="font-size: large">
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+            <asp:Button ID="okButton" runat="server" OnClick="Button1_Click" Text="Assign Spy" />
+        </p>
+        <p style="font-size: large">
+            &nbsp;</p>
+        <p style="font-size: large">
+            <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </p>
     </form>
 </body>
