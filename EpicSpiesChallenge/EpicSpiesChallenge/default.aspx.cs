@@ -16,7 +16,9 @@ namespace EpicSpiesChallenge
             previousCalendar.SelectedDate = DateTime.Now.Date;
             startCalendar.SelectedDate = DateTime.Now.Date.AddDays(14);
             endCalendar.SelectedDate = DateTime.Now.Date.AddDays(21);
+            resultLabel.Text = " ";
             }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -36,10 +38,7 @@ namespace EpicSpiesChallenge
             double work1 = work.Days;
             double cost = work1 * 500;
 
-            
-            
-
-            
+                                                
             if (value2 > value3)
                 work = value2 - value3;
             
@@ -53,6 +52,7 @@ namespace EpicSpiesChallenge
                 " to assignment Project: {1} is authorized." +
                " Budget total: {2:C}", a, b, cost);
 
+            // use (if) (else) if the result changes due to a rule.
             if (offtime.TotalDays < 14)
                 resultLabel.Text = " ERROR: You must have 14 days between assignments";
 
