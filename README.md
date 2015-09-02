@@ -6,6 +6,8 @@ challenge conditional radiobutton: http://342-chance.vm.epicserver.com/conradbtt
 
 Simple Calculator app: http://342-chance.vm.epicserver.com/calcapp
 
+Epic Spies Challenge: http://342-chance.vm.epicserver.com/epicspies
+
 Cheat Sheet
 
 Data Types (CS-ASP_007)
