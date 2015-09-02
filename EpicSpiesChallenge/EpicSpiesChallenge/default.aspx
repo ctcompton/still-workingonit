@@ -7,8 +7,8 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 223px;
-            height: 280px;
+            width: 220px;
+            height: 250px;
         }
         .newStyle1 {
             font-family: Arial;
@@ -22,7 +22,8 @@
     <form id="form1" runat="server">
     <div class="newStyle1" style="font-size: 24pt">
     
-        <img alt="epicspylogo" class="auto-style1" src="file:///C:/Users/chance/AppData/Local/Microsoft/Windows/INetCache/WebTempDir/epic-spies-logo.jpg" /><br />
+        <asp:Image ID="Image1" runat="server" Height="230px" ImageUrl="~/epic-spies-logo.jpg" Width="190px" />
+        <br />
         <br />
         <span class="auto-style2"><strong style="font-size: xx-large">Spy New Assignment Form</strong></span></div>
         <p style="font-size: x-large">
