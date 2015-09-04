@@ -1,14 +1,14 @@
 # EpicU-ChanceCompton
 
-Papa Bob's pizza site challenge: http://342-chance.vm.epicserver.com/pizza1
+Papa Bob's pizza site challenge: http://342-chance.vm.epicservers.com/pizza1
 
-challenge conditional radiobutton: http://342-chance.vm.epicserver.com/conradbttn
+challenge conditional radiobutton: http://342-chance.vm.epicservers.com/conradbttn
 
-Simple Calculator app: http://342-chance.vm.epicserver.com/calcapp
+Simple Calculator app: http://342-chance.vm.epicservers.com/calcapp
 
-Epic Spies Challenge: http://342-chance.vm.epicserver.com/epicspies
+Epic Spies Challenge: http://342-chance.vm.epicservers.com/epicspies
 
-Spy Tracker Challenge: http://342-chance.vm.epicserver.com/spytracker 
+Spy Tracker Challenge: http://342-chance.vm.epicservers.com/spytracker 
 
 Cheat Sheet
 
