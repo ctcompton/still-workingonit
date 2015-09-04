@@ -8,6 +8,8 @@ Simple Calculator app: http://342-chance.vm.epicserver.com/calcapp
 
 Epic Spies Challenge: http://342-chance.vm.epicserver.com/epicspies
 
+Spy Tracker Challenge: http://342-chance.vm.epicserver.com/spytracker 
+
 Cheat Sheet
 
 Data Types (CS-ASP_007)
