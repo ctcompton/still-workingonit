@@ -210,3 +210,26 @@ same as single dimensional ... just requiresmore indexes (in dimensions) to get 
 
 double[,] myArray = new double[2,3]; // contains six elemente
 int[,,] rubicscube = new int[3,3,3] //contains 27 elements
+
+
+
+Changing the Length of an Array
+===============================
+
+Arrays are immutable = cannot be changed in memory
+HOWEVER .NET Framework provides helper methodsto
+resize an array... creates a new array and copies
+the old values into it.
+
+Array.Resize(ref myArray, myArray.Length + 1);
+
+// Get the highest index:
+int highestIndex = myArray.GetupperBound(0);
+// 0 = dimension we want to retrieve the 
+//upper boundry for
+
+//Arrays have other helper methods
+myArray.sum
+myArray.max
+myArray.min
+myArray.average
