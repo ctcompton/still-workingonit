@@ -235,3 +235,37 @@ myArray.sum
 myArray.max
 myArray.min
 myArray.average
+
+Array.Sort(myArray)
+Array.Reverse(myArray)
+
+
+Looping with the for Iteration Statement (CS-ASP_026)
+=====================================================
+
+Snippet: for [tab][tab]
+Then you can tab through the replaceable bits, hit enter to 
+start writing code in the code block body.
+
+for (int i = 0; i <10; i++)
+{
+// your code here
+}
+
+i = any variable name
+
+1st part - counter declaration, can be initialized to any number
+2nd part - condintion, can be any expression that equates to a bool
+3rd part - increment i++ / decrement i--, can step more than 1 using +=,
+
+string[] names = new string[] { "wolverine", "cyclops", "Professor X", "Pheonix"};
+
+for (int i = 0; i < names.length; i++)
+{
+ //Cna Search for a specific value
+  if (names[1] == "Professor X")
+  {
+   //do something here
+    // Can break out of additional iterations if you need to 
+      break;
+      }
