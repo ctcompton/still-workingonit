@@ -269,3 +269,21 @@ for (int i = 0; i < names.length; i++)
     // Can break out of additional iterations if you need to 
       break;
       }
+
+Looping with the while and do...while Iteration Statements (CS-ASP_027)
+========================================================================
+
+Random randomk = new Random();
+
+// random.Next(lowerBounds, upperBounds)
+random.Next(1,100); // returns a value between 1 and 100
+
+// If someExpression is already false, this will never execute
+while(someExpression) 
+
+{
+
+// Code that would affect whether
+
+// someExpression is true or false
+
