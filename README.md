@@ -287,3 +287,58 @@ while(someExpression)
 
 // someExpression is true or false
 
+
+
+Creating overloaded methods (CS-ASP_031)
+=======================================
+Different Method Signature, but same basic function.
+Method Signature ... the numver and type of parameters 
+cn have different return types.
+
+Creatin Optional Parameters - (CS-ASP_032)
+========================================
+
+Optional parameters provide default values whent ou define 
+the method. So, if ou don't supply a value, the default will be used.
+
+private void myMethod(string  myrequiredparam, 
+                      int myoptionalparam = 1,
+                      int myotheroptioanlpara = 5);
+                      
+// Can be called ...
+
+my Method ("hello REquired param!");
+
+// or ...
+
+myMetyhod("hello required para!", 100);
+
+// or ...
+
+myMetyhod("hello required para!", 100, 500);
+
+// you can not skip an optional parameter:
+myMetyhod("hello required para!", 100, , 500); error
+
+Passing named argument into input parameters (CS-ASP_033)
+=========================================================
+Allow us to send iin parameter arguments OUT OF ORDER!
+We Just prefix the input parameter argument with the name of the prameter 
+we're passing in, a colon, then value:
+
+myMetyhod(myOtherOptionalParam: 500,
+          myRequiredParam: "hello required param",
+          myOptionalParam: 100);
+         
+ // You still have to pass in Required paramateres.
+ 
+ Creating Methods with output Parameters - (CS-ASP_034)
+ ======================================================
+ 
+ Allows you to return a value the normal way AND return 
+ a value via a method prameter:
+ 
+ private bool myMethod(string myRequiredParam,
+                       out int myOptionalParam) {}\\int myValue = 0;
+                       if (myMethod("some required text", out myValue)) return "hello world"
+                       
