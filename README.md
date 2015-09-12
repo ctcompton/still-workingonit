@@ -407,3 +407,38 @@ string[] names = myString.split(',');
 // concatinating strings, immutability
 // stringBuilder - memory efficient way of concatenating strings.
 
+Introduction to Classes and Objects (CS-ASP_036)
+=================================================
+
+Class is a code block that defines a data type.
+An Object is an instance of a class.
+Metaphors:
+blueprint vs. houses
+recipe vs cupcakes
+
+classes have members, like Properties and Methods.
+
+Properties define the attributes that are set on
+an instance of the class / represent the "state"
+of the object. You can set (assign) and get
+(retrieve) properties values on an object.
+
+Methods define actions an instance of a class
+can perform, usually on the object instance itself.
+
+You can create an instance of a class using the new keyword.
+Think "factory".
+
+you can access the members of an object by using the
+member access operator, the dot (.)
+
+Conceptually, classes are delegated a responsability
+in the system or represent some domain concept
+in the system.
+
+
+classes are ultimately custom data types, more complex
+than the simple data types we've worked with.
+therefore you can use them anywhere you use other
+data types (like as an input parameter opr return
+
