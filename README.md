@@ -10,6 +10,8 @@ Epic Spies Challenge: http://342-chance.vm.epicservers.com/epicspies
 
 Spy Tracker Challenge: http://342-chance.vm.epicservers.com/spytracker 
 
+Postal Challenge: http://342-chance.vm.epicservers.com/postalchallenge
+
 Cheat Sheet
 
 Data Types (CS-ASP_007)
