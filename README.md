@@ -442,3 +442,71 @@ than the simple data types we've worked with.
 therefore you can use them anywhere you use other
 data types (like as an input parameter opr return
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creating Constructor Methods (CS-ASP_043)
+==========================================
+
+Constructors are called at the moment of instantiation.
+Used to put the new instance of the class into a valid state.
+{
+Public Foo()
+ {
+  .....
+ }
+}
+
+Whether you define it or not, there's aa default constructor.
+You can override the default (no input parameters) or
+overload the constructor to allow the user to set the new 
+instance to a valid state.
+
+Naming Conventions for Identifiers (CS-ASP_044)
+===============================================
+
+PascalCase - Public
+camelCase - private, protected
+
+Public classes, methods and properties - PascalCase
+Private helper methods, input parameters - camelCase
+Locally scoped variables - camelCase
+Private field - camelCase prefixed w/ underscore: _firsName
+
+
+Static versus Instance Mambers (CS-ASP_045)
+===========================================
+
+Static members - no instance of the class required to call method
+
+Instance member - must create an instance w/ new keword to call 
+methods and properties
+
+Can mix both in the same class, but can't reference instance
+members from inside of sstatic members.
+
+Classes can be decaoted w/ static keyword... all members must
+be static, can't create a new instatnce of that class
+
