@@ -510,3 +510,107 @@ members from inside of sstatic members.
 Classes can be decaoted w/ static keyword... all members must
 be static, can't create a new instatnce of that class
 
+
+
+Working with the list collection (CS-ASP_046)
+============================================
+
+Use generic collections to work with items in a strongly typed fashion.
+
+Better than arrays:
+Know the type of the item for a certainty, no casting / converting
+Better performance inserting / removing / updating
+Collections provide more flexible otions to access items in the collection.
+Allows for LINQ extension methods
+
+Many different collections - specialties
+
+"Generic Collections"
+List<T>
+Dictionary<TKEY, TVALUE>
+T => data type you need
+"You make a generic specific by providing a data type."
+
+List<String> - only store strings (strong Typed)
+List<Car> - only store Cars in that collection
+
+// Assume I have three objects: car1, car2, car, car3
+List<Car> cars = new List<Car>();
+cars.add(car1);
+cars.add(car2);
+cars.add(car3);
+
+int numberOfCars = cars.count;
+Car myCar = cars.ElementAt(1); //Return 2nd car in the collection
+
+// Terminology: You access a MEMBER of a collection
+
+// LINQ queries
+
+Object Initializers (CS-ASP_047)
+===============================
+
+Consice way to initialize a new object (or collection) with values.
+
+// Didn't talk about this form:
+
+Car car1 = new Car() { Make = "BMW", Model = "528i", Year = 2010, Color = "Black"};
+// No local variable name for the new Car instance needed!
+cars.Add(new Car() Car car1 = new Car() { Make = "BMW", Model = "528i", Year = 2010, Color = "Black"};
+
+Collection Initializers (CS-ASP_048)
+===================================
+
+
+
+
+
+
+
+Working With the Dictionary<TKey, TValue> Collection (CS-ASP_049)
+=================================================================
+
+Dictionary allows you to use a key to access a memver of the collection.
+Think: Webster's dictionary ... the word (key), then the definition (instance of a given type)
+Key is anything meaningful in YOUR system.
+key must be unique.
+
+TKey => type of the key
+TValue => type of the value
+
+Dictionary<string, Car> cars
+
+
+
+
+
+
+
+
+Looping with the foreach Iteration Statement (CS-ASP_050)
+=========================================================
+More elegant way of iterating through collections.
+
+Code snippet: foreach (TAB)(TAB)
+
+foreach (Car car in cars) {
+ result += car.Make;
+ }
+ 
+ Implicitly Typed local Variables with the var keyword (CS-ASP_051)
+ ===================================================================
+ 
+ (Applies to locally scoped variable declarations)
+ Compiler is smart enough to figure out the data type when you initialize the variable.
+ Becomes increasingly important because sometines it's difficult to know what the data
+ type is supposed to be. (LINQ)
+ 
+ int hitPoints = 0;
+ ..... is the equivalent of ..
+ var hitPoints = 0;
+ 
+ string heroName = "Pentagorn";
+ ... is the equivalent of ...
+ var heroName = "Pentagorn";
+ 
+ 
